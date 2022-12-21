@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+header {
+    background-color: #fff;
+    height: 80px;
+    padding: 1vh 2vw;
+    /* position: relative; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.logo {
+    display: inline;
+}
+
+img {
+    margin: 10px;
+}
+
+.head-menu {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin: 30px;
+    position: absolute;
+    top: -3px;
+}
+
+.head-menu a {
+    padding: 20px;
+    font-size: 1.2rem;
+    color: rgb(1, 8, 0);
+    text-decoration: none;
+}
+
+.head-menu a:hover {
+    background-color: rgb(4, 170, 109);
+    ;
+}
+
+.btn {
+    display: block;
+    float: right;
+    margin: 2vh 1vw 0vh .1vw;
+    padding: 1.3vh;
+    width: 9.8%;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.green {
+    background-color: rgb(4, 170, 109);
+    border: 2px solid rgb(4, 170, 109);
+    color: #fff;
+}
+
+.green:hover {
+    background-color: rgb(4, 143, 92);
+
+}
+
+.lemon {
+    background-color: #FFF4A3;
+    border: 2px solid #FFF4A3;
+}
+
+.lemon:hover {
+    background-color: #f0e48b;
+}
+
+.light-pink {
+    background-color: #FFC0C7;
+    border: 2px solid#FFC0C7;
+}
+
+.light-pink:hover {
+    background-color: #e6a2a9;
+}
+
+.upgrade {
+    width: 7%;
+    background-color: #282A35;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.upgrade:hover {
+    background-color: grey;
+    border: 2px solid grey;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #282A35;
+    height: 6.5vh;
+    padding: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+
+}
+
+.fa-house-chimney {
+    color: #fff;
+    margin: 3px;
+    font-size: 20px;
+}
+
+a {
+    padding: 10px 9px;
+    font-size: 1rem;
+    margin: 0px 1px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    background-color: rgb(4, 143, 92);
+}
+
+.right-icon {
+    float: right;
+}
+
+.fa-solid {
+    margin: 0px 14px;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+i:hover {
+    background-color: #000;
+}
+
+.sidebar {
+    display: inline;
+}
+
+iframe {
+    height: 100vh;
+    /* display: inline-block; */
+    width: 15vw;
+    overflow: auto;
+}
+
+.container {
+    /* border-right: 1px solid black; */
+    width: 75%;
+    height: 22vh;
+    /* margin: auto; */
+    float: right;
+    position: relative;
+    right: 8%;
+    margin: 20vh 0vw 0vh 5vw;
+}
+
+h1 {
+    margin: 1vh 0vw 1vh -1.2vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+}
+
+.buttons {
+    /* border: 2px solid black; */
+    margin: 1vh 0vw 1vh -1.8vw;
+    height: 18vh;
+    width: 93.4%;
+
+}
+
+.prev {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(4, 170, 109);
+    color: #fff;
+    border: 1px solid rgb(4, 170, 109);
+    cursor: pointer;
+    font-size: 1rem;
+    height: 51px;
+}
+
+.next {
+    float: right;
+    margin: 10px 10px 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(4, 170, 109);
+    color: #fff;
+    border: 1px solid rgb(4, 170, 109);
+    cursor: pointer;
+    font-size: 1rem;
+    height: 51px;
+}
+
+span {
+    margin: 3px 0px 0px 0px;
+}
+
+.explain {
+    /* border: 1px solid black; */
+    width: 93.4%;
+    height: 29vh;
+    position: relative;
+    right: 8%;
+    margin: 1vh 0vw 1vh 4.2vw;
+    z-index: -1;
+    padding: 20px;
+    background-color: #D9EEE1;
+}
+
+p {
+    margin: 15px 5px 2px 0px;
+}
+
+.initiate {
+    padding: 15px;
+    font-weight: bold;
+    margin: 13px 0px;
+    background-color: rgb(4, 170, 109);
+    border: 1px solid rgb(4, 170, 109);
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.initiate:hover {
+    background-color: rgb(4, 170, 109);
+}
+
+.icon2 {
+    border: 2px solid;
+}
